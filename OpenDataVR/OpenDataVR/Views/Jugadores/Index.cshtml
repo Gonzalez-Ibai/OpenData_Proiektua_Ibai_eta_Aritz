@@ -1,0 +1,121 @@
+﻿@model OpenDataVR.Models.JugadoresIndexVM
+
+@{
+    string Toggle(string col)
+    {
+        if ((Model.Orden ?? "Nombre") == col) return col + "_desc";
+        return col;
+    }
+}
+
+<h2>Personajes</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="buscar" placeholder="Buscar por nombre o apodo"
+           value="@Model.Buscar" />
+
+    <select name="arquetipo">
+        <option value="">-- Arquetipo --</option>
+        @foreach (var item in Model.Arquetipos)
+        {
+            <option value="@item.Value" selected="@(item.Value == Model.Arquetipo)">@item.Text</option>
+        }
+    </select>
+
+    <select name="posicion">
+        <option value="">-- Posición --</option>
+        @foreach (var item in Model.Posiciones)
+        {
+            <option value="@item.Value" selected="@(item.Value == Model.Posicion)">@item.Text</option>
+        }
+    </select>
+
+    <select name="elemento">
+        <option value="">-- Elemento --</option>
+        @foreach (var item in Model.Elementos)
+        {
+            <option value="@item.Value" selected="@(item.Value == Model.Elemento)">@item.Text</option>
+        }
+    </select>
+
+    <select name="rol">
+        <option value="">-- Rol --</option>
+        @foreach (var item in Model.Roles)
+        {
+            <option value="@item.Value" selected="@(item.Value == Model.Rol)">@item.Text</option>
+        }
+    </select>
+
+    <input type="hidden" name="orden" value="@Model.Orden" />
+    <button type="submit">Aplicar</button>
+
+    <a asp-action="Index">Reset</a>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Img</th>
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Nombre")">Nombre</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Apodo")">Apodo</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Arquetipo")">Arquetipo</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Posicion")">Posición</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Elemento")">Elemento</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Rol")">Rol</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Total")">Total</a>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var j in Model.Jugadores)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrWhiteSpace(j.Imagen))
+                    {
+                        <img src="@j.Imagen" alt="@j.Nombre" width="50" />
+                    }
+                </td>
+                <td>@j.Nombre</td>
+                <td>@j.Apodo</td>
+                <td>@j.Arquetipo</td>
+                <td>@j.Posicion</td>
+                <td>@j.Elemento</td>
+                <td>@j.Rol</td>
+                <td>@j.Total</td>
+            </tr>
+        }
+    </tbody>
+</table>

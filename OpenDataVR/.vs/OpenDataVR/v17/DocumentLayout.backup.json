@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\wwwroot\\data\\jugadores_limpio.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\wwwroot\\data\\jugadores_limpio.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\models\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\models\\jugadoresindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\models\\jugadoresindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\services\\jugadoresdataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\services\\jugadoresdataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +51,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OpenDataVR\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OpenDataVR\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T12:17:38.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Jugadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "OpenDataVR\\Views\\Jugadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Jugadores\\Index.cshtml",
+              "RelativeToolTip": "OpenDataVR\\Views\\Jugadores\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T12:14:51.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JugadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Controllers\\JugadoresController.cs",
+              "RelativeDocumentMoniker": "OpenDataVR\\Controllers\\JugadoresController.cs",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Controllers\\JugadoresController.cs",
+              "RelativeToolTip": "OpenDataVR\\Controllers\\JugadoresController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwD0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:07:17.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Program.cs",
+              "RelativeDocumentMoniker": "OpenDataVR\\Program.cs",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Program.cs",
+              "RelativeToolTip": "OpenDataVR\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:53.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JugadoresDataServices.cs",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Services\\JugadoresDataServices.cs",
+              "RelativeDocumentMoniker": "OpenDataVR\\Services\\JugadoresDataServices.cs",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Services\\JugadoresDataServices.cs",
+              "RelativeToolTip": "OpenDataVR\\Services\\JugadoresDataServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:00:34.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JugadoresIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Models\\JugadoresIndexVM.cs",
+              "RelativeDocumentMoniker": "OpenDataVR\\Models\\JugadoresIndexVM.cs",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Models\\JugadoresIndexVM.cs",
+              "RelativeToolTip": "OpenDataVR\\Models\\JugadoresIndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:47:30.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "jugadores_limpio.json",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\wwwroot\\data\\jugadores_limpio.json",
+              "RelativeDocumentMoniker": "OpenDataVR\\wwwroot\\data\\jugadores_limpio.json",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\wwwroot\\data\\jugadores_limpio.json",
+              "RelativeToolTip": "OpenDataVR\\wwwroot\\data\\jugadores_limpio.json",
+              "ViewState": "AgIAAFa7AQAAAAAAAAAAAGG7AQAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T11:42:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Models\\Jugador.cs",
+              "RelativeDocumentMoniker": "OpenDataVR\\Models\\Jugador.cs",
+              "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Models\\Jugador.cs",
+              "RelativeToolTip": "OpenDataVR\\Models\\Jugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:10:05.961Z",
+              "EditorCaption": ""
             }
           ]
         }

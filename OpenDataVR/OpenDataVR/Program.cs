@@ -3,6 +3,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//Gure zerbitzuak hemen erregistratu
+builder.Services.AddSingleton<OpenDataVR.Services.JugadoresDataService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

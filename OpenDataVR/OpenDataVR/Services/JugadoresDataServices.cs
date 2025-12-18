@@ -1,0 +1,39 @@
+﻿using System.Text.Json;
+using OpenDataVR.Models;
+
+namespace OpenDataVR.Services
+{
+    public class JugadoresDataService
+    {
+        private readonly IWebHostEnvironment _env;
+        private List<Jugador>? _cache;
+
+        public JugadoresDataService(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
+
+        public List<Jugador> GetAll()
+        {
+            if (_cache != null) return _cache;
+
+            var path = Path.Combine(_env.WebRootPath, "data", "jugadores_limpio.json");
+            var json = File.ReadAllText(path);
+
+            var opts = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<List<Jugador>>(json, opts) ?? new List<Jugador>();
+
+            // seguridad por si se cuela algo raro
+            _cache = data
+                .Where(j => j.Id > 0 && !string.IsNullOrWhiteSpace(j.Nombre))
+                .ToList();
+
+            return _cache;
+        }
+    }
+}
+    
