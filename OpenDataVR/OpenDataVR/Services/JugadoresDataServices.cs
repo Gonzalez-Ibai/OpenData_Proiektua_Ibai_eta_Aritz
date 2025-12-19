@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using OpenDataVR.Models;
+using OpenDataVR.Converters;
 
 namespace OpenDataVR.Services
 {
@@ -24,13 +25,15 @@ namespace OpenDataVR.Services
             {
                 PropertyNameCaseInsensitive = true
             };
+            opts.Converters.Add(new FlexibleNullableIntConverter());
+
 
             var data = JsonSerializer.Deserialize<List<Jugador>>(json, opts) ?? new List<Jugador>();
 
             // seguridad por si se cuela algo raro
             _cache = data
-                .Where(j => j.Id > 0 && !string.IsNullOrWhiteSpace(j.Nombre))
-                .ToList();
+            .Where(j => j.Id > 0 && !string.IsNullOrWhiteSpace(j.Nombre))
+            .ToList();
 
             return _cache;
         }

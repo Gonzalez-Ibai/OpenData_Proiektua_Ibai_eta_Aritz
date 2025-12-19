@@ -55,7 +55,18 @@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Id")">Id</a>
+            </th>
+
             <th>Img</th>
+
             <th>
                 <a asp-action="Index"
                    asp-route-buscar="@Model.Buscar"
@@ -65,57 +76,245 @@
                    asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Nombre")">Nombre</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Apodo")">Apodo</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Juego")">Juego</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Arquetipo")">Arquetipo</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Posicion")">Posición</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Elemento")">Elemento</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Rol")">Rol</a>
             </th>
+
             <th>
-                <a asp-action="Index" asp-route-buscar="@Model.Buscar" asp-route-arquetipo="@Model.Arquetipo"
-                   asp-route-posicion="@Model.Posicion" asp-route-elemento="@Model.Elemento" asp-route-rol="@Model.Rol"
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Potencia")">Potencia</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Control")">Control</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Tecnica")">Técnica</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Presion")">Presión</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Fisico")">Físico</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
+                   asp-route-orden="@Toggle("Agilidad")">Agilidad</a>
+            </th>
+
+            <th>
+                <a asp-action="Index"
+                   asp-route-buscar="@Model.Buscar"
+                   asp-route-arquetipo="@Model.Arquetipo"
+                   asp-route-posicion="@Model.Posicion"
+                   asp-route-elemento="@Model.Elemento"
+                   asp-route-rol="@Model.Rol"
                    asp-route-orden="@Toggle("Total")">Total</a>
             </th>
         </tr>
+
     </thead>
 
     <tbody>
         @foreach (var j in Model.Jugadores)
         {
             <tr>
+                <td>@j.Id</td>
                 <td>
                     @if (!string.IsNullOrWhiteSpace(j.Imagen))
                     {
-                        <img src="@j.Imagen" alt="@j.Nombre" width="50" />
+                        <img src="@j.Imagen" alt="@j.Nombre" width="50" loading="lazy" />
                     }
                 </td>
                 <td>@j.Nombre</td>
                 <td>@j.Apodo</td>
+                <td>@j.Juego</td>
                 <td>@j.Arquetipo</td>
                 <td>@j.Posicion</td>
                 <td>@j.Elemento</td>
                 <td>@j.Rol</td>
-                <td>@j.Total</td>
+                <td>@(j.Potencia?.ToString() ?? "???")</td>
+                <td>@(j.Control?.ToString() ?? "???")</td>
+                <td>@(j.Tecnica?.ToString() ?? "???")</td>
+                <td>@(j.Presion?.ToString() ?? "???")</td>
+                <td>@(j.Fisico?.ToString() ?? "???")</td>
+                <td>@(j.Agilidad?.ToString() ?? "???")</td>
+                <td>@(j.Total?.ToString() ?? "???")</td>
             </tr>
         }
     </tbody>
+
 </table>
+
+@{
+    int total = Model.TotalPaginas;
+    int current = Model.Pagina;
+
+    // Ventana de páginas alrededor de la actual
+    int window = 2;
+    int start = Math.Max(2, current - window);
+    int end = Math.Min(total - 1, current + window);
+
+    string BuildUrl(int p) => Url.Action("Index", "Jugadores", new
+    {
+        buscar = Model.Buscar,
+        arquetipo = Model.Arquetipo,
+        posicion = Model.Posicion,
+        elemento = Model.Elemento,
+        rol = Model.Rol,
+        orden = Model.Orden,
+        pagina = p
+    })!;
+}
+
+@if (Model.TotalPaginas > 1)
+{
+    <nav aria-label="Paginación" style="margin-top:16px;">
+        <ul class="pagination">
+
+            <!-- Anterior -->
+            <li class="page-item @(current == 1 ? "disabled" : "")">
+                <a class="page-link" href="@(current == 1 ? "#" : BuildUrl(current - 1))">‹</a>
+            </li>
+
+            <!-- Primera -->
+            <li class="page-item @(current == 1 ? "active" : "")">
+                <a class="page-link" href="@BuildUrl(1)">1</a>
+            </li>
+
+            <!-- ... si hace falta -->
+            @if (start > 2)
+            {
+                <li class="page-item disabled"><span class="page-link">…</span></li>
+            }
+
+            <!-- Páginas intermedias -->
+            @for (int p = start; p <= end; p++)
+            {
+                <li class="page-item @(p == current ? "active" : "")">
+                    <a class="page-link" href="@BuildUrl(p)">@p</a>
+                </li>
+            }
+
+            <!-- ... si hace falta -->
+            @if (end < total - 1)
+            {
+                <li class="page-item disabled"><span class="page-link">…</span></li>
+            }
+
+            <!-- Última (si total > 1) -->
+            <li class="page-item @(current == total ? "active" : "")">
+                <a class="page-link" href="@BuildUrl(total)">@total</a>
+            </li>
+
+            <!-- Siguiente -->
+            <li class="page-item @(current == total ? "disabled" : "")">
+                <a class="page-link" href="@(current == total ? "#" : BuildUrl(current + 1))">›</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div style="margin-top:8px;">
+        Mostrando @((current - 1) * Model.TamPagina + 1)
+        –
+        @(Math.Min(current * Model.TamPagina, Model.TotalFiltrados))
+        de @Model.TotalFiltrados
+    </div>
+}
+

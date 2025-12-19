@@ -1,26 +1,5 @@
 [
   {
-    "Id": "Nº",
-    "Nombre": "Nombre",
-    "Apodo": "Apodo",
-    "Juego": "Juego",
-    "Arquetipo": "Arquetipo",
-    "Posicion": "Posición",
-    "Elemento": "Elemento",
-    "Potencia": "Control",
-    "Control": "Técnica",
-    "Tecnica": "Presión",
-    "Presion": "Físico",
-    "Fisico": "Agilidad",
-    "Agilidad": "Inteligencia",
-    "Total": "Total",
-    "GrupoDeEdad": "Grupo de Edad",
-    "AnioEscolar": "Año escolar",
-    "Genero": "Género",
-    "Rol": "Rol",
-    "Imagen": "Imagen"
-  },
-  {
     "Id": 1,
     "Nombre": "Mark Evans",
     "Apodo": "Evans",
