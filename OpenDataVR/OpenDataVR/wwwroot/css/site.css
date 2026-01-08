@@ -20,3 +20,56 @@ html {
 body {
   margin-bottom: 60px;
 }
+<style >
+/* Dark mode base */
+.dark-mode {
+    background-color: #0f1115;
+    color: #e6e6e6;
+}
+
+.dark-mode .card {
+    background-color: #161a22;
+    color: #e6e6e6;
+    border-color: rgba(255,255,255,.08);
+}
+
+.dark-mode .table {
+    color: #e6e6e6;
+}
+
+.dark-mode .table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: #e6e6e6;
+    background-color: rgba(255,255,255,.03);
+}
+
+.dark-mode .table-hover > tbody > tr:hover > * {
+    background-color: rgba(255,255,255,.06);
+    color: #ffffff;
+}
+
+.dark-mode .table-dark {
+    --bs-table-bg: #0b0e14;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+    background-color: #0f1115;
+    color: #e6e6e6;
+    border-color: rgba(255,255,255,.14);
+}
+
+    .dark-mode .form-control::placeholder {
+        color: rgba(230,230,230,.55);
+    }
+
+.dark-mode .page-link {
+    background-color: #161a22;
+    border-color: rgba(255,255,255,.14);
+    color: #e6e6e6;
+}
+
+.dark-mode .page-item.active .page-link {
+    border-color: rgba(255,255,255,.2);
+}
+
+</style >
