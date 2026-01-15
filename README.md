@@ -66,7 +66,7 @@ Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
 
 🎥 HEMEN APLIKAZIOAREN ERABILERA BIDEOAREN ESTEKA (YouTube edo GIF)
 
----
+--- Aplikazioaren videoa funtzio nagusiak erakusten: https://youtu.be/_p-Z123_9PQ
 
 ## Bugak eta muga ezagunak
 Une honetan **ez da bug larririk aurkitu**.  
