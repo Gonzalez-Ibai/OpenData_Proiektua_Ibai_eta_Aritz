@@ -12,9 +12,10 @@ Aplikazioak **Inazuma Eleven Victory Road jokoko pertsonai legendarioen informaz
 
 Helburua da datu asko modu eraginkor, erabilgarri eta bisualki argi batean erakustea.
 
-📸 HEMEN APLIKAZIOAREN SCREENSHOT OROKOR BAT SARTU
+# HEMEN APLIKAZIOAREN SCREENSHOT OROKOR BAT SARTU
 
----
+---<img width="1882" height="916" alt="image" src="https://github.com/user-attachments/assets/bd2852f5-9eba-4fd9-8a14-b9aa989ae730" />
+
 
 ## Datuen iturria
 Aplikazioak erabiltzen dituen datuak **JSON fitxategi lokal batetik** kargatzen dira.  
@@ -26,8 +27,6 @@ Fitxategi horrek Inazuma Eleven jokoetako pertsonaia legendarioen informazioa ja
 - Irudiaren URLa  
 
 Zenbait pertsonaiaren kasuan, informazioa **ez dago guztiz eskuragarri** (pertsonaia sekretuak), eta horrelakoetan aplikazioak `???` balioa erakusten du.
-
-📸 HEMEN DATUEN ADIBIDEAREN SCREENSHOT BAT (JSON edo taularen ikuspegia)
 
 ---
 
@@ -64,7 +63,7 @@ Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
 5. Orrialdekako nabigazioa erabiliz, hurrengo edo aurreko orrialdeetara joan daiteke  
 6. Goiko barran dagoen botoiarekin, **modo argia eta iluna** txandaka daitezke  
 
-🎥 HEMEN APLIKAZIOAREN ERABILERA BIDEOAREN ESTEKA (YouTube edo GIF)
+# HEMEN APLIKAZIOAREN ERABILERA BIDEOAREN ESTEKA (YouTube edo GIF)
 
 --- Aplikazioaren videoa funtzio nagusiak erakusten: https://youtu.be/_p-Z123_9PQ
 
