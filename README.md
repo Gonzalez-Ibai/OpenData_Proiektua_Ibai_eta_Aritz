@@ -12,7 +12,7 @@ Aplikazioak **Inazuma Eleven Victory Road jokoko pertsonai legendarioen informaz
 
 Helburua da datu asko modu eraginkor, erabilgarri eta bisualki argi batean erakustea.
 
-# HEMEN APLIKAZIOAREN SCREENSHOT OROKOR BAT SARTU
+# APLIKAZIOAREN SCREENSHOT OROKOR BAT 
 
 ---<img width="1882" height="916" alt="image" src="https://github.com/user-attachments/assets/bd2852f5-9eba-4fd9-8a14-b9aa989ae730" />
 
