@@ -1,6 +1,6 @@
-# 📌 OpenDataVR – Inazuma Eleven Victory Road-ko bideojokoaren pertsonaien web aplikazioa
+# OpenDataVR – Inazuma Eleven Victory Road-ko bideojokoaren pertsonaien web aplikazioa
 
-## 🎯 Proiektuaren helburua
+## Proiektuaren helburua
 Proiektu honen helburua **ASP.NET Core MVC erabiliz web aplikazio bat garatzea** da, Open Data iturri batetik datozen datuak erabiliz.  
 Aplikazioak **Inazuma Eleven Victory Road jokoko pertsonai legendarioen informazioa** erakusten du, eta erabiltzaileari aukera ematen dio:
 
@@ -16,7 +16,7 @@ Helburua da datu asko modu eraginkor, erabilgarri eta bisualki argi batean eraku
 
 ---
 
-## 📊 Datuen iturria
+## Datuen iturria
 Aplikazioak erabiltzen dituen datuak **JSON fitxategi lokal batetik** kargatzen dira.  
 Fitxategi horrek Inazuma Eleven jokoetako pertsonaia legendarioen informazioa jasotzen du, besteak beste:
 
@@ -31,7 +31,7 @@ Zenbait pertsonaiaren kasuan, informazioa **ez dago guztiz eskuragarri** (pertso
 
 ---
 
-## 🛠️ Erabilitako teknologiak
+## Erabilitako teknologiak
 Proiektua garatzeko honako teknologiak erabili dira:
 
 - **C#** – Programazio-lengoaia nagusia  
@@ -45,16 +45,16 @@ Proiektua garatzeko honako teknologiak erabili dira:
 
 ---
 
-## 📚 Informazioa non bilatu den
-(ATAL HAU HUTSIK UTZI NAHITA)
+## Informazioa non bilatu den
+Guk Erabilitako Open data joku bateko orri batetik aterata dago. Orri honetan ez dago informazio guztia orduan excel batetik hartu ditugu datuak, Datuak csv batera bihurtu dugu eta csv-tik json-era (json erabiliz argazkiak jarri ditzazkegulako).
 
-- 
-- 
-- 
+ 
+- PaginaWeb: https://zukan.inazuma.jp/en/chara_list/
+- Excel: https://docs.google.com/spreadsheets/d/1m0tK8jpzDqThVLBAQsih3VAvzBNDS_d9/edit?usp=sharing&ouid=116109943142160437515&rtpof=true&sd=true
 
 ---
 
-## 🧪 Aplikazioaren funtzionamendua
+## Aplikazioaren funtzionamendua
 Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
 
 1. Web aplikazioa irekitzean Home orria azaltzen da, Personajes orrian klikatzerakoan pertsonaien zerrenda agertzen da. 
@@ -68,7 +68,7 @@ Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
 
 ---
 
-## 🐞 Bugak eta muga ezagunak
+## Bugak eta muga ezagunak
 Une honetan **ez da bug larririk aurkitu**.  
 Hala ere, badira kontuan hartu beharreko muga batzuk:
 
