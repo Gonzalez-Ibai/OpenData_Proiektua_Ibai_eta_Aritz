@@ -12,7 +12,6 @@ Aplikazioak **Inazuma Eleven Victory Road jokoko pertsonai legendarioen informaz
 
 Helburua da datu asko modu eraginkor, erabilgarri eta bisualki argi batean erakustea.
 
-# APLIKAZIOAREN SCREENSHOT OROKOR BAT 
 
 ---<img width="1882" height="916" alt="image" src="https://github.com/user-attachments/assets/bd2852f5-9eba-4fd9-8a14-b9aa989ae730" />
 
@@ -55,7 +54,7 @@ Guk Erabilitako Open data joku bateko orri batetik aterata dago. Orri honetan ez
 
 ## Aplikazioaren funtzionamendua
 Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
-
+ 
 1. Web aplikazioa irekitzean Home orria azaltzen da, Personajes orrian klikatzerakoan pertsonaien zerrenda agertzen da. 
 2. Goiko bilatzailea erabiliz, izen edo ezizenez arabera bilatu daiteke  
 3. Goitibeherako menuak erabiliz, pertsonaiak filtratu daitezke  
@@ -63,12 +62,11 @@ Aplikazioa erabiltzeko jarraitu beharreko pausoak hauek dira:
 5. Orrialdekako nabigazioa erabiliz, hurrengo edo aurreko orrialdeetara joan daiteke  
 6. Goiko barran dagoen botoiarekin, **modo argia eta iluna** txandaka daitezke  
 
-# HEMEN APLIKAZIOAREN ERABILERA BIDEOAREN ESTEKA (YouTube edo GIF)
 
 --- Aplikazioaren videoa funtzio nagusiak erakusten: https://youtu.be/_p-Z123_9PQ
 
 ## Bugak eta muga ezagunak
-Une honetan **ez da bug larririk aurkitu**.  
+Une honetan **ez dugu bug larririk aurkitu**.  
 Hala ere, badira kontuan hartu beharreko muga batzuk:
 
 - Pertsonaia sekretu batzuen estatistikak ez daude eskuragarri, eta `???` gisa agertzen dira  
