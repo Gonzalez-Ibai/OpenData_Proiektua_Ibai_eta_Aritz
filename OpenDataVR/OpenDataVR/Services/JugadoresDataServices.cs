@@ -30,7 +30,7 @@ namespace OpenDataVR.Services
 
             var data = JsonSerializer.Deserialize<List<Jugador>>(json, opts) ?? new List<Jugador>();
 
-            // seguridad por si se cuela algo raro
+            // segurtasuna (jokalari batek daturen bat arraro duenean)
             _cache = data
             .Where(j => j.Id > 0 && !string.IsNullOrWhiteSpace(j.Nombre))
             .ToList();

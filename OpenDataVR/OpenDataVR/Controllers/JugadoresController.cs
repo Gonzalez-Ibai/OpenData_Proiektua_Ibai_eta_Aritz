@@ -46,7 +46,7 @@ namespace OpenDataVR.Controllers
                 "Id" => jugadores.OrderBy(j => j.Id),
                 "Id_desc" => jugadores.OrderByDescending(j => j.Id),
 
-                // ===== TEXTO (??? SIEMPRE AL FINAL) =====
+                // ===== TEXTO (??? Beti bukaeran) =====
                 "Nombre" =>
                     jugadores.OrderBy(j => j.Nombre == "???" || string.IsNullOrWhiteSpace(j.Nombre))
                              .ThenBy(j => j.Nombre),
@@ -103,7 +103,7 @@ namespace OpenDataVR.Controllers
                     jugadores.OrderBy(j => j.Rol == "?" || string.IsNullOrWhiteSpace(j.Rol))
                              .ThenByDescending(j => j.Rol),
 
-                // ===== NUMÉRICOS (null SIEMPRE AL FINAL) =====
+                // ===== Null (null beti bukaeran) =====
                 "Potencia" =>
                     jugadores.OrderBy(j => j.Potencia == null)
                              .ThenBy(j => j.Potencia),
@@ -206,7 +206,7 @@ namespace OpenDataVR.Controllers
             return View(vm);
         }
 
-
+        // Dropdown eraikitzailea
         private static List<SelectListItem> BuildSelect(IEnumerable<string> values)
         {
             return values

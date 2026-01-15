@@ -17,7 +17,7 @@ body {
     margin-bottom: 60px;
 }
 
-/* Focus bonito */
+/* Fokus-a */
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
@@ -27,7 +27,7 @@ body {
     box-shadow: 0 0 0 0.1rem rgba(255,255,255,.6), 0 0 0 0.25rem rgba(37,140,251,.45);
 }
 
-/* Un pelín más “app” */
+
 .navbar .nav-link {
     font-weight: 500;
 }
@@ -54,8 +54,7 @@ body {
 }
 
 /* =========================
-   DARK MODE (global)
-   Se activa con: body.dark-mode
+   Gai iluna globala izateko
    ========================= */
 body.dark-mode {
     background-color: #0f1115;

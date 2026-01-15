@@ -1,5 +1,6 @@
 ﻿namespace OpenDataVR.Models
 {
+    //Jokalari klasea
     public class Jugador
     {
         public int Id { get; set; }
