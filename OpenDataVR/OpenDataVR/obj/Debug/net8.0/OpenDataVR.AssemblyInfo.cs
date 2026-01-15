@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenDataVR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ef1ffe231239a3e376f1a9567e64e2f34da4e10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+881da5d39d84cc816bd4b836538c9a4c0ffff8ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenDataVR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenDataVR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

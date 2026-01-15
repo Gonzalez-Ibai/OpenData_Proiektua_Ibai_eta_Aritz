@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\views\\jugadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|solutionrelative:opendatavr\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35F063DB-216C-40C6-BFFA-86F455ECBEB9}|OpenDataVR\\OpenDataVR.csproj|c:\\users\\gonzalez.ibai\\documents\\github\\paag2\\opendata_proiektua_ibai_eta_aritz\\opendatavr\\opendatavr\\converters\\flexiblenullableintconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "OpenDataVR\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\wwwroot\\css\\site.css",
               "RelativeToolTip": "OpenDataVR\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwFwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-01-08T09:57:20.7Z",
               "EditorCaption": ""
@@ -83,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Jugadores\\Index.cshtml",
               "RelativeDocumentMoniker": "OpenDataVR\\Views\\Jugadores\\Index.cshtml",
               "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Jugadores\\Index.cshtml",
               "RelativeToolTip": "OpenDataVR\\Views\\Jugadores\\Index.cshtml",
-              "ViewState": "AgIAALoAAAAAAAAAAAAcwNEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsBAAAAAAAAAAAkwGYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-18T12:14:51.26Z",
               "EditorCaption": ""
@@ -120,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "OpenDataVR\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\gonzalez.ibai\\Documents\\GitHub\\PAAG2\\OpenData_Proiektua_Ibai_eta_Aritz\\OpenDataVR\\OpenDataVR\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "OpenDataVR\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-18T12:17:38.56Z",
               "EditorCaption": ""
@@ -141,8 +141,7 @@
               "RelativeToolTip": "OpenDataVR\\Converters\\FlexibleNullableIntConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:16:24.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T09:16:24.722Z"
             },
             {
               "$type": "Document",

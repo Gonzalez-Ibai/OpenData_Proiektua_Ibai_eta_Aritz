@@ -4,49 +4,158 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - OpenDataVR</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OpenDataVR.styles.css" asp-append-version="true" />
+
+    <style>
+        /* Transiciones suaves al cambiar tema */
+        body, .navbar, .card, .table, .footer, .form-control, .form-select {
+            transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+        }
+
+        /* Tema oscuro global (funciona con cualquier versión de Bootstrap) */
+        body.dark-mode {
+            background-color: #0f1115;
+            color: #e6e6e6;
+        }
+
+        body.dark-mode .navbar {
+            background-color: #0b0e14 !important;
+            border-color: rgba(255,255,255,.10) !important;
+        }
+
+        body.dark-mode .navbar .nav-link,
+        body.dark-mode .navbar .navbar-brand {
+            color: #e6e6e6 !important;
+        }
+
+        body.dark-mode .navbar .nav-link:hover {
+            color: #ffffff !important;
+        }
+
+        body.dark-mode .card,
+        body.dark-mode .dropdown-menu {
+            background-color: #161a22;
+            color: #e6e6e6;
+            border-color: rgba(255,255,255,.10);
+        }
+
+        body.dark-mode .table {
+            color: #e6e6e6;
+        }
+
+        body.dark-mode .table-striped>tbody>tr:nth-of-type(odd)>* {
+            background-color: rgba(255,255,255,.03);
+            color: #e6e6e6;
+        }
+
+        body.dark-mode .table-hover>tbody>tr:hover>* {
+            background-color: rgba(255,255,255,.06);
+            color: #ffffff;
+        }
+
+        body.dark-mode .form-control,
+        body.dark-mode .form-select {
+            background-color: #0f1115;
+            color: #e6e6e6;
+            border-color: rgba(255,255,255,.14);
+        }
+
+        body.dark-mode .form-control::placeholder {
+            color: rgba(230,230,230,.55);
+        }
+
+        body.dark-mode .footer {
+            border-color: rgba(255,255,255,.10) !important;
+            color: rgba(230,230,230,.75) !important;
+        }
+
+        /* Contenedor un poco más ancho sin llegar a full-width */
+        .app-container {
+            max-width: 1400px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OpenDataVR</a>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 sticky-top">
+            <div class="container-fluid app-container">
+                <a class="navbar-brand fw-semibold" asp-area="" asp-controller="Home" asp-action="Index">OpenDataVR</a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Jugadores" asp-action="Index">Personajes</a>
                         </li>
                     </ul>
+
+                    <!-- Botón tema global -->
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-outline-secondary btn-sm" id="themeToggleGlobal">
+                            🌙 Modo oscuro
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container-fluid app-container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container-fluid app-container py-3">
             &copy; 2025 - OpenDataVR - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        (function () {
+            const key = "vr_theme";
+            const btn = document.getElementById("themeToggleGlobal");
+            const body = document.body;
+
+            function apply(theme) {
+                if (theme === "dark") {
+                    body.classList.add("dark-mode");
+                    if (btn) btn.textContent = "☀️ Modo claro";
+                } else {
+                    body.classList.remove("dark-mode");
+                    if (btn) btn.textContent = "🌙 Modo oscuro";
+                }
+            }
+
+            const saved = localStorage.getItem(key) || "light";
+            apply(saved);
+
+            btn?.addEventListener("click", function () {
+                const next = body.classList.contains("dark-mode") ? "light" : "dark";
+                localStorage.setItem(key, next);
+                apply(next);
+            });
+        })();
+    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
